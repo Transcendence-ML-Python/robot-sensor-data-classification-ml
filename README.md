@@ -1,6 +1,6 @@
 # Robot dataset
 # Supervised ML
-# Used Scikit libraries
+# Scikit libraries
 # ML algorithms: Naive Bayes, Decision Tree, Single and Multi-layer Perceptron, SVM and XGBoost 
 Using the signal information from 24 sensors to predict the movement of robot.
 The 24 sensor data was processed and transformed to 4 input values. 
