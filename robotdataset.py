@@ -57,5 +57,8 @@ with st.spinner('Training the model'):
 		model = models.xgboost_model(X, Y, labels, dataset_name)
 	else:
 		pass
-st.write("This is the first part of group project which was completed as part of coursework (COMM055, University of Surrey). The members of group are Amit Bechelet, Donald James, Hisham Parol, Namra Sultan")
-st.write("Github link: https://github.com/donaldjames/Robot-dataset-ML-supervised")
+menu = st.sidebar.checkbox("About Info")
+if menu:
+	st.write("Supervised ML for Robot sensor dataset. Using Streamlit for visualisation and applying Naive Bayes, Decision Tree, Single and Multi-layer Perceptron, SVM, XGBoost")
+	st.write("This is the first part of group project which was completed as part of coursework (COMM055, University of Surrey). The members of group are Amit Bechelet, Donald James, Hisham Parol, Namra Sultan")
+	st.write("Github link: https://github.com/donaldjames/Robot-dataset-ML-supervised")
