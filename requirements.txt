@@ -1,4 +1,4 @@
-streamlit==0.62.0
+streamlit==1.37.0
 pandas==1.0.3
 Keras==2.3.1
 yellowbrick==1.1
